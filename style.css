@@ -45,7 +45,7 @@ position: fixed; /*this is important for keeping sidebar in the same place; */
 z-index: 1; /*still confused on this???????*/
 top: 0; /*how far away fromn the top it is*/
 left: 0;/*how far away from the left it is*/
-background-color: #292826;
+background-color: #366273;
 overflow-x: hidden; /* when text is too long for the designated width, this is what makes it so you would either let it go out of the boundary(ugly if done wrong), or allow for a navigation bar to see the whole name*/
 padding-top: 20px;/*padding is the space between an elements content and its border*/
 
@@ -56,7 +56,7 @@ padding-top: 20px;/*padding is the space between an elements content and its bor
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 18px;
-  color: #818181;
+  color: #dac5c5;
   display: block;/*this will put the links on top of each other in a descending order, proper format*/
 
 }
