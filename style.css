@@ -24,6 +24,50 @@ p {
   text-align: center;
 }
 
-table{
-  border:1px solid black;
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+img{
+  height: 75%;
+  width: 75%;
+}
+
+/* this is for the sidebar */
+.sidenav {
+height: 100%; /* thisis in charge of putting the sidebar all the way down to the bottom of the screen*/
+width: 200px; /*this is self explanatory*/
+position: fixed; /*this is important for keeping sidebar in the same place; */
+z-index: 1; /*still confused on this???????*/
+top: 0; /*how far away fromn the top it is*/
+left: 0;/*how far away from the left it is*/
+background-color: #292826;
+overflow-x: hidden; /* when text is too long for the designated width, this is what makes it so you would either let it go out of the boundary(ugly if done wrong), or allow for a navigation bar to see the whole name*/
+padding-top: 20px;/*padding is the space between an elements content and its border*/
+
+}
+
+/* This is for the looks of the links of the sidebar */
+.sidenav a{ /*the a specifies what tag is being effected witin the class, that is my assumption*/
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;/*this will put the links on top of each other in a descending order, proper format*/
+
+}
+
+/* this is for the effect of seeing which link you're mouse is hovering over */
+.sidenav a:hover{/*assumption is that the hover is an action, everything that occurs within this block will only occur when the action is occuring*/
+  color:aliceblue;
+}
+
+/* this will make it so that the main contents of the page are to the left of the sidebar */
+.main{
+  margin-left: 200px;
+  padding: 0px 10px;
 }
