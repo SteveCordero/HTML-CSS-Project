@@ -40,7 +40,7 @@ img{
 /* this is for the sidebar */
 .sidenav {
 height: 100%; /* thisis in charge of putting the sidebar all the way down to the bottom of the screen*/
-width: 200px; /*this is self explanatory*/
+width: 150px; /*this is self explanatory*/
 position: fixed; /*this is important for keeping sidebar in the same place; */
 z-index: 1; /*still confused on this???????*/
 top: 0; /*how far away fromn the top it is*/
@@ -55,7 +55,7 @@ padding-top: 20px;/*padding is the space between an elements content and its bor
 .sidenav a{ /*the a specifies what tag is being effected witin the class, that is my assumption*/
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 18px;
   color: #818181;
   display: block;/*this will put the links on top of each other in a descending order, proper format*/
 
@@ -68,6 +68,14 @@ padding-top: 20px;/*padding is the space between an elements content and its bor
 
 /* this will make it so that the main contents of the page are to the left of the sidebar */
 .main{
-  margin-left: 200px;
+  margin-left: 150px;
   padding: 0px 10px;
+}
+
+/* this will be to center images */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
