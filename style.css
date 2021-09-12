@@ -118,3 +118,9 @@ td{
 .letter{
   background-color: white;
 }
+
+#letterbox{
+  border: 0px solid;
+  padding: 0px;
+  box-shadow: 25px 30px;
+}
