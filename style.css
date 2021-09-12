@@ -11,6 +11,10 @@ li a:hover {
   color: white;
 }
 
+li{
+  font-family: 'Patua One', cursive;
+}
+
 p {
   text-align: center;
   font-family: 'Patua One', cursive;
@@ -109,4 +113,8 @@ td{
   align-self: auto;
   width: 75%;
   
+}
+
+.letter{
+  background-color: white;
 }
